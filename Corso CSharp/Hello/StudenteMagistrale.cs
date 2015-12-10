@@ -10,6 +10,9 @@ namespace Hello
     {
         public string voto;
 
+
+
+
         public StudenteMagistrale(string nome, string cognome, int matricola, string voto, string email) :
             base(nome, nome, matricola, email) { this.voto = voto; }
     }
